@@ -1,0 +1,22 @@
+# Proyecto de Autenticación y Pantallas
+
+Este es un proyecto simple que demuestra un sistema de autenticación básico con dos roles: Administrador e Inspector.
+
+## Estructura del Proyecto
+
+- **css/**: Contiene los archivos CSS para estilizar la aplicación.
+- **js/**: Contiene la lógica de la aplicación.
+- **components/**: Contiene los componentes de la interfaz de usuario.
+- **index.html**: Archivo principal HTML.
+- **README.md**: Documentación del proyecto.
+
+## Cómo Usar
+
+1. Clona el repositorio.
+2. Abre `index.html` en tu navegador.
+3. Inicia sesión con las credenciales proporcionadas en `auth.js`.
+
+## Credenciales
+
+- **Admin**: usuario: `admin`, contraseña: `admin123`
+- **Inspector**: usuario: `inspector`, contraseña: `inspector123`
