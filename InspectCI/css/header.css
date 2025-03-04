@@ -9,11 +9,12 @@
     background-color: #0073e6;
     min-height: 60px; 
     box-sizing: border-box;
+    width: 100%;
     
 }
 
 .logo img {
-    height: 140px;
+    height: 100px;
     padding: 5px;    
 }
 
@@ -28,21 +29,23 @@ h1 {
 }
 
 #menu-btn {
-    background-color: none;
+    background-color: transparent;
     border: none;
     font-size: 24px;
     cursor: pointer;
-    color: white;
+    /* color: white; */
+    
 }
 
 #menu-dropdown {
     position: absolute;
-    top: 40px;
+    top: 80px;
     right: 0;
     background: white;
     list-style: none;
     padding: 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0,1);
+    text-align: left;
     
 }
 
