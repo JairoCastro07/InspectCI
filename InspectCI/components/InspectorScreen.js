@@ -7,7 +7,7 @@ function InspectorScreen() {
             <button id="formulario-inspeccion">Formulario de Inspección</button>
             <button id="reporte-novedad">Reporte Rápido de Novedad</button>
             <button id="informes">Informes / Indicadores</button>
-            <button id="cerrar-sesion">Cerrar Sesión</button>
+            <button id="opcion-adicional-inspector">Opcion Adicional</button>
         </div>
          ${InspectionForm()} <!-- Incluir el formulario de inspección -->
     `;
@@ -30,8 +30,8 @@ function setupInspectorScreen() {
         // pantalla de informes
     });
 
-    document.getElementById('cerrar-sesion').addEventListener('click', () => {
+/*     document.getElementById('cerrar-sesion').addEventListener('click', () => {
         console.log('Cerrando Sesión...');
         showScreen('login-form'); // Volver a la pantalla de login
-    });
+    }); */
 }
