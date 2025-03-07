@@ -8,13 +8,13 @@ function HeaderGeneral() {
             </div>
             <h1>Bienvenido al Sistema</h1>
             <div class="menu">
-                <button id="menu-btn">☰</button>
+                <button id="menu-btn" class="hidden">☰</button>
                 <ul id="menu-dropdown" class="hidden">
                     <li><a href="#">Inicio</a></li>
                     <li><a href="#">Perfil</a></li>
                     <li><a href="#">Ajustes Generales</a></li>
                     <li><a href="#">Cronograma</a></li>
-                    <li><a href="#">Cerrar sesión</a></li>
+                    <li><a href="#" id="cerrar-sesion">Cerrar sesión</a></li>
                 </ul>
             </div>
         </div>
@@ -57,6 +57,12 @@ document.addEventListener("DOMContentLoaded", function() {
         // Evitar que el menú se cierre al hacer clic dentro de él
         menuDropdown.addEventListener("click", function(event) {
             event.stopPropagation(); // Evita que el clic se propague al documento
+        });
+
+        document.getElementById('cerrar-sesion').addEventListener('click', () => {
+            // console.log('Cerrando Sesión...');
+            menuDropdown.classList.add("hidden");
+            showScreen('login-form'); // Volver a la pantalla de login
         });
     }
 });
