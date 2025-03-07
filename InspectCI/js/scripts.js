@@ -16,16 +16,7 @@ document.getElementById('loginForm').addEventListener('submit', function (event)
     }
 });
 
-// Función para mostrar una pantalla específica
-function showScreen(screenId) {
-    // Ocultar todas las pantallas
-    document.getElementById('loginScreen').classList.add('hidden');
-    document.getElementById('adminScreen').classList.add('hidden');
-    document.getElementById('inspectorScreen').classList.add('hidden');
 
-    // Mostrar la pantalla seleccionada
-    document.getElementById(screenId).classList.remove('hidden');
-}
 
 // Función para cerrar sesión y volver a la pantalla de inicio de sesión
 function logout() {

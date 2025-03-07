@@ -8,7 +8,7 @@ function AdminScreen() {
             <button id="administrar-inspector">Administrar Inspector</button>
             <button id="repositorio-inspecciones">Repositorio de Inspecciones</button>
             <button id="informes-admin">Informes / Indicadores</button>
-            <button id="cerrar-sesion-admin">Cerrar Sesión</button>
+            <button id="opcion-adicional-admin">Opcion Adicional</button>
         </div>
     `;
 }
@@ -30,8 +30,8 @@ function setupAdminScreen() {
         // pantalla de informes
     });
 
-    document.getElementById('cerrar-sesion-admin').addEventListener('click', () => {
+/*     document.getElementById('cerrar-sesion-admin').addEventListener('click', () => {
         console.log('Cerrando Sesión...');
         showScreen('login-form'); // Volver a la pantalla de login
-    });
+    }); */
 }
