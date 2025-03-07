@@ -4,7 +4,7 @@ function HeaderGeneral() {
     return `
         <div id="header">
             <div class="logo">
-                <img src="img/Logo_2.jpg" alt="Inspect CI">
+                <img src="/InspectCI/img/logoSinFondo.png" alt="Inspect CI">
             </div>
             <h1>Bienvenido al Sistema</h1>
             <div class="menu">
